@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IR=E">
+   <meta nama="viewport" content="width=device-width, initial-scale=1.0">
+   <title>aplikasi</title>
+</head>
+<body>
+ <h1>Aplikasi Sederhana</h1>
+ <label for="">Panggilan</label><br>    <label for="">[Pak/Mas/Dll]</label><br>
+<input type="text" id="Panggilan"><br>     
+
+ <label for="">Nama</label><br>
+<input type="text" id="Nama"><br>
+
+<label for="">Usia</label><br>
+<input type="text" id="Usia"><br>
+
+<button onclick="Tampil()">Tampilkan</button>
+<hr> 
+<div id="output"></div>
+<script>
+    const output = document.querySelector( '#output' )
+    const Panggilan = document.querySelector( '#Panggilan' )
+    const Nama = document.querySelector( '#Nama' )
+    const Usia = document.querySelector( '#Usia' )
+    function Tampil(){
+        output.innerHTML= `
+          Hallo  ${Panggilan.value}  ${Nama.value}, Apa kabar ${Panggilan.value} ? Semoga baik" ya ${Panggilan.value}
+
+Wiiiihhhh Tidak terasa sudah ${Usia.value} Tahun ya ${Panggilan.value}. Sehat Selalu ya ${Panggilan.value}   
+          
+
+     
+        `
+           
+    }
+</script>
+    <title>Text Glow</title>
+    <style>
+        
+        body{
+         background-color: darkblue;
+         margin: 0;
+         padding: 10px;
+         text-align: center;
+        }
+          text {
+            font-size: 50px;
+            font-weight: bold;
+          } 
+          .text span{
+            animation: glow 3.5s ease infinite;
+          }
+          text-span:nth-child(2){
+            animation-delay: 0.2s;
+          }
+          text-span:nth-child(3){
+            animation-delay: 0.4s;
+          }
+          text-span:nth-child(4){
+            animation-delay: 0.6s;
+          }
+          text-span:nth-child(5){
+            animation-delay: 0.8s;
+          }
+         @keyframes glow{
+            0%, 100%{
+                color: burlywood;
+                text-shadow: 0 0 50px aqua; 
+            }
+            20%, 90%{
+                color:darkgray;
+                text-shadow:none; 
+            }
+            }
+         
+
+            
+    
+        
+    </style>
+
+   
+
+   
+</body>
+
+     <div class="text">
+        <span>C</span>
+        <span>E</span>
+        <span>O</span>
+        <span>F</span>
+        <span>S</span>
+        <span>I</span> 
+        <span>X</span>
+
+        <style>
+            .text span{
+            animation: glow 3.5s ease infinite;
+          }
+          text-span:nth-child(2){
+            animation-delay: 0.2s;
+          }
+          text-span:nth-child(3){
+            animation-delay: 0.4s;
+          }
+          text-span:nth-child(4){
+            animation-delay: 0.6s;
+          }
+          text-span:nth-child(5){
+            animation-delay: 0.8s;
+          }
+         @keyframes glow{
+            0%, 100%{
+                color: burlywood;
+                text-shadow: 0 0 50px aqua; 
+            }
+            20%, 90%{
+                color:darkgray;
+                text-shadow:none; 
+            }
+            }
+        </style>
+     </div>
+
+
+
+
+
+
+     
+    <img src="c:\Users\HP\Downloads\tugas sekolah\peta\tt.jpeg" alt="jgvgvb"/>
+     
+</html>
+     <marquee>I LOVEEEEEEEE YOUUU GUYS (ﾉ◕ヮ◕)ﾉ💕💕💕💕</marquee>
